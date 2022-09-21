@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+    font-size: 15pt; /* Размер основного шрифта в пунктах  */
+    background-color: darkgreen ; /* Цвет фона веб-страницы */
+    color: black; /* Цвет основного текста */
+    height: 100%;
+}
+html{height: 100%}
+#navbar{
+    font-family: "Times New Roman", Georgia, serif;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #0066FF;
+    border-radius: 20px 5px;
+    width: 90%;
+    text-align: center;
+    background-color: #33ADFF;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+
+}
+#navbar li { display: inline;
+    
+}
+#navbar a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    text-align: center;
+
+}
+#navbar a:hover {
+    border-radius: 20px 5px;
+    background-color: #0066FF;
+    text-decoration: underline;
+}
+
+p { font-size: 25px;
+    color: gold;
+    text-align: center;
+}
+
+
+
+
+
+.foot {
+    background-color: #33ADFF;
+    flex: 0 0 auto;
+    width: 100%;
+    height: 80px;
+    left: 0;
+    bottom: 0;
+    }
+
+/* Текст, код или прочее */
+
+
+
+.avatar{
+    text-align: center;
+    padding: 20px;
+       }
+
+.content {
+    padding-bottom: 90px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Cambria Math";
+    text-indent: 50px;
+    color: aquamarine;
+
+}
+
+.content2{
+    font-family: Papyrus;
+    text-align: center;
+    font-size: 70px;
+    color: greenyellow;
+}
+
+.knowledge{
+    text-align: center;
+    font-family: Cambria;
+    font-size: 30px;
+    color: chartreuse;
+   /* text-space: 10;*/
+
+    }
